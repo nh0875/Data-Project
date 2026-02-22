@@ -65,6 +65,9 @@ This tool accelerates analysts by batch-structuring qualitative ad data, but it 
 4) Spot-check a handful of rows to ensure labels match brand context before scaling.
 
 ## Testing tips
+<img width="1419" height="206" alt="image" src="https://github.com/user-attachments/assets/e14497cf-afb5-4448-9995-3ed32a001011" />
+
 - Start with the provided `input_ads.csv` to verify pipeline and JSON parsing.
 - Add noisy or edge-case ads (typos, emojis) to ensure the classifier remains stable.
 - If you see parsing errors, lower `temperature` further or tighten prompt examples.
+
