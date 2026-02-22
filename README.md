@@ -76,6 +76,12 @@ This tool accelerates analysts by batch-structuring qualitative ad data, but it 
 - Start with the provided `input_ads.csv` to verify pipeline and JSON parsing.
 - If you see parsing errors, lower `temperature` further or tighten prompt examples.
 
+##Graphs and Sheets Analysis
+<img width="1919" height="909" alt="image" src="https://github.com/user-attachments/assets/8414c16a-e355-4f18-b9b0-786b3c0a4d7d" />
+
+<img width="1918" height="910" alt="image" src="https://github.com/user-attachments/assets/aebf636d-02f5-485f-94ec-fb03d09fa449" />
+
+
 
 
 
