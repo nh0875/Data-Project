@@ -18,6 +18,8 @@ Marketing research teams lose time normalizing qualitative ads. This script stan
 - `input_ads.csv` — demo inputs.
 - `analyzed_output.csv` — generated output (created at runtime).
 - `requirements.txt` — pinned dependencies.
+<img width="212" height="223" alt="image" src="https://github.com/user-attachments/assets/05062ebb-c257-411b-8cb8-100f49b86e73" />
+
 
 ## Setup
 1) Python 3.10+.
@@ -42,6 +44,8 @@ Arguments:
 - **Driver Persona:** Who the ad speaks to (e.g., busy mom, tech-savvy early adopter).
 - **Format:** Content style (e.g., UGC, unboxing, green screen, testimonial montage).
 - **Hook Type:** Attention grabber (e.g., shocking stat, rhetorical question, bold claim).
+<img width="806" height="288" alt="image" src="https://github.com/user-attachments/assets/a5c4ebf2-30dc-40be-b717-a1338051a7cd" />
+
 
 ## Rule design (offline heuristic)
 - Keyword buckets map common phrases to each dimension; defaults keep the JSON schema complete.
@@ -50,6 +54,8 @@ Arguments:
 ## Error handling
 - Each ad is wrapped in try/except; failures are logged in `error_message` while the loop continues.
 - CSV order preserves `raw_text` next to labels for quick auditing.
+<img width="200" height="263" alt="image" src="https://github.com/user-attachments/assets/3b309a7c-4eef-4766-aebd-93e5d4965469" />
+
 
 ## Extending to Anthropic or OpenAI
 - Swap `AdMatrixAnalyzer` with an API-backed variant (see earlier commit history) while keeping the same schema.
@@ -70,5 +76,6 @@ This tool accelerates analysts by batch-structuring qualitative ad data, but it 
 - Start with the provided `input_ads.csv` to verify pipeline and JSON parsing.
 - Add noisy or edge-case ads (typos, emojis) to ensure the classifier remains stable.
 - If you see parsing errors, lower `temperature` further or tighten prompt examples.
+
 
 
