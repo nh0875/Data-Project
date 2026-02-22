@@ -74,8 +74,8 @@ This tool accelerates analysts by batch-structuring qualitative ad data, but it 
 
 ## Testing tips
 - Start with the provided `input_ads.csv` to verify pipeline and JSON parsing.
-- Add noisy or edge-case ads (typos, emojis) to ensure the classifier remains stable.
 - If you see parsing errors, lower `temperature` further or tighten prompt examples.
+
 
 
 
